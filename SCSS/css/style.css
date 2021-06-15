@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  padding: 25px 4rem;
+  z-index: 2;
+}
+
+.header .left {
+  float: left;
+}
+
+.header .left a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header .right {
+  margin-top: 7px;
+  float: right;
+}
+
+.header .right a {
+  font-size: 16px;
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#first {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 15rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+#first .overlay {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(92, 77, 66, 0.8);
+}
+
+#first h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+#first p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 50px;
+  opacity: .8;
+}
+
+#first hr {
+  width: 70px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: #f4623a;
+  border: 1px solid #f4623a;
+}
+
+#first a {
+  font-size: 13.6;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px 36px;
+  background-color: #f4623a;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+#second {
+  background-color: #f4623a;
+  text-align: center;
+  padding: 10rem 0;
+}
+
+#second h2 {
+  font-size: 31px;
+  color: #fff;
+}
+
+#second hr {
+  width: 70px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+#second p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+#second a {
+  color: #000;
+  background-color: #f8f9fa;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 20px 36px;
+  text-decoration: none;
+}
+
+#third {
+  padding: 12rem;
+}
+
+#third .text h2 {
+  text-align: center;
+  color: #212529;
+  font-size: 31px;
+}
+
+#third hr {
+  width: 70px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: #f4623a;
+  border: 1px solid #f4623a;
+}
+
+#third .box {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+#third .box i {
+  color: #f4623a;
+  padding: 15px;
+}
+
+#third .box h3 {
+  font-size: 24px;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+#third .box p {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+#fourth {
+  margin-top: 6rem;
+}
+
+#fourth .box {
+  float: left;
+  width: calc(100%/3);
+  position: relative;
+}
+
+#fourth .box:hover .overlay {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#fourth .box:hover .box-text {
+  opacity: 1;
+}
+
+#fourth .box .box-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#fourth .box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  background-color: #f4623a;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#fourth .box img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+#fifth {
+  background-color: #363d4f;
+  text-align: center;
+  padding: 15rem 0;
+}
+
+#fifth h2 {
+  color: #fff;
+  font-size: 31px;
+  margin: 50px 0;
+}
+
+#fifth a {
+  color: #000;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  padding: 20px 36px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+#sixth .text {
+  text-align: center;
+  padding: 10rem 0;
+}
+
+#sixth .text h2 {
+  color: #212529;
+  font-size: 31px;
+}
+
+#sixth .text hr {
+  width: 70px;
+  height: 3px;
+  margin: 10px auto;
+  background-color: #f4623a;
+  border: 1px solid #f4623a;
+}
+
+#sixth .text p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+#sixth .form {
+  text-align: center;
+}
+
+#sixth .form .first {
+  padding: 16px 15rem 16px 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#sixth .form .second {
+  padding: 16px 15rem 16px 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#sixth .form .third {
+  padding: 16px 15rem 16px 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#sixth .form textarea {
+  padding: 16px 10rem 16px 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#sixth .form button {
+  padding: 16px 12rem 16px 12rem;
+  background-color: #dc3545;
+  border-radius: 30px;
+  border: 1px solid #dc3545;
+}
+
+#sixth .form i {
+  margin-top: 50px;
+}
+
+#sixth .form h2 {
+  font-size: 16px;
+  color: #212529;
+  margin-bottom: 10rem;
+}
+
+#sixth .form footer h4 {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */
